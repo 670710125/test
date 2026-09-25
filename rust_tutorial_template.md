@@ -11,7 +11,7 @@
 
 | # | Name | Student ID | GitHub Username | Main Responsibility |
 |---|---|---|---|---|
-| 1 | `[วุฒิชัย หลักเพชร]` | `[รหัส]` | `@[username]` | Concept + Code |
+| 1 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Concept + Code |
 | 2 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Code + Demo |
 | 3 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Rust vs Other Language + PPL |
 | 4 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Exercises + Common Mistakes |
@@ -33,8 +33,9 @@
 
 อธิบายว่า Topic นี้คืออะไร มีความสำคัญอย่างไร และใช้แก้ปัญหาอะไรในการเขียนโปรแกรม
 
-`[เขียนเนื้อหาที่นี่]`
+`[Enums (Enumerations) และ Pattern Matching เป็นฟีเจอร์ที่เป็นหัวใจสำคัญของการออกแบบภาษา Rust ในมุมมองของวิชาการภาษาโปรแกรม (Principles of Programming Languages) Enums ใน Rust ไม่ได้เป็นเพียงการตั้งชื่อให้ตัวเลข (Integer Constants) แบบในภาษา C/C++ หรือ Java แต่เป็น Algebraic Data Types (Sum Types) ซึ่งหมายความว่า Enum หนึ่งตัวสามารถบรรจุข้อมูลที่มีชนิด (Type) แตกต่างกันไว้ภายในได้]`
 
+`[      เมื่อนำมารวมกับ Pattern Matching (match) ซึ่งเป็นกลไก Control Flow ที่ทรงพลัง Rust จะบังคับให้โปรแกรมเมอร์ต้องจัดการกับ "ทุกความเป็นไปได้ (Exhaustive checking)" เสมอ แนวคิดนี้ถูกนำมาใช้แก้ปัญหาที่ร้ายแรงที่สุดในโลกของการเขียนโปรแกรม เช่น การอ้างอิงค่าว่าง (Null Pointer Dereference) และการลืมดักจับ Error (Unhandled Exceptions) ทำให้โค้ดของ Rust มีความปลอดภัย (Type-safe) และคาดเดาพฤติกรรมได้สูงมาก]`
 ---
 
 ## 4. Key Concepts
